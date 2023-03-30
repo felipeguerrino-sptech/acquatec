@@ -14,7 +14,7 @@ body {
     border-bottom: 3px #32b0cd solid;
 }
 
-h1 {
+.header h1 {
     color: #32b0cd;
 }
 
@@ -37,7 +37,8 @@ ul {
     align-items: center;
 }
 
-li, a {
+li,
+a {
     color: #e3b062;
     text-decoration: none;
     font-weight: bold;
@@ -57,13 +58,16 @@ li, a {
     align-items: center;
 }
 
+.banner .container p {
+    font-size: 200%;
+    width: 250px;
+}
+
 span {
     font-weight: 800;
 }
-
 p {
-    font-size: 200%;
-    width: 250px;
+    font-size: 15px;
 }
 
 .social .container {
@@ -85,36 +89,18 @@ p {
     justify-content: center;
 }
 
-.card p {
-    font-size: medium;
-    font-weight: bold;
-}
-
-.card h4 {
-    font-size: larger;
-    font-weight: 900;
-    color: darkred;
+.card h1 {
+    color: red;
 }
 
 .footer {
-    display: flex;
-    margin: auto;
-    background-color: #32b0cd;
     width: 100%;
-    height: 140px;
+    background-color: #32a7b1;
+    color: white;
 }
 
 .footer .container {
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-}
-
-.footer h4 {
-    font-size: medium;
-    color: white;
-}
-
-.footer p {
-    font-size: medium;
-    color: white;
+    height: 150px;
 }
